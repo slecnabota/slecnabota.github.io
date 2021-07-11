@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,500&display=swap');
+body{
+    
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration:none;
+}
+.wrapper{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+}
+.contain{
+    width:1320px;
+    margin: 0 auto;
+}
+ol, ul,li {
+    padding: 0;
+    margin: 0;
+    list-style: none; }
+
+.top-1{
+    margin:0 163px 0 163px;
+        font-size:25px;
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+}
+.header{
+    height:50px;
+    align-items:center;
+    background: #DE6D4B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.foxhole>a,.kingsmen>a,.ravensking>a{
+    font-weight: 700;
+    line-height: 1.175;
+    color:white;
+}
+.info-about{
+    margin: 67px 0 67px 0;
+    display:flex;
+    justify-content: space-between;
+}
+.info{
+    background: #516B6A;
+}
+.info-about-1{
+    margin-top: 48px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.18;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 48px;
+}
+.info-about-2{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.16;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.quote{
+    
+    background-color: #3E5C5B;
+}
+.quote-text{
+    margin: 86px 0 86px 0;
+    font-size: 30px;
+    line-height: 1.16;
+    text-align: center;
+    color: #FFFFFF;
+}
+.characters{
+    background: #D29393;
+}
+.text{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1.342;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 96px;
+}
+.characters-img{
+    margin-bottom: 30px;
+}
+.names{
+    margin-bottom: 110px;
+    display:flex;
+    font-weight: 400;
+font-size: 27px;
+line-height: 1.47;
+text-transform: uppercase;
+color: white;
+}
+.name2{
+    margin-left: 60px;
+    margin-right: 28px;
+}
+.name3{
+    margin-right: 15px;
+}
+.name4{
+    margin-right: 55px;
+}
+.name5{
+    margin-right: 30px;
+}
+.name6{
+    margin-right:40px;
+}
+.name7{
+    margin-right: 10px;
+}
+.name8{
+    margin-right: 20px;
+}
+.name9{
+    margin-right: 90px;
+}
+.name10{
+    margin-right: 50px;
+}
+.firstbook-w{
+    height:100vh;
+    margin-top: 70px;
+    display: flex;
+}
+.firstbook{
+    background: #D2891C;
+}
+.firstbook-right-heading>a{
+font-weight: 700;
+font-size: 40px;
+line-height: 1.175;
+margin-left: 112px;
+color: #FFFFFF;
+}
+.infoaboutfox{
+    margin-bottom: 80px;
+    margin-top: 60px;
+    margin-left: 70px;
+    max-width:780px;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+.secondbook{
+    background: rgba(234, 41, 41, 0.4);
+}
+.thirdbook{
+    background: rgba(81, 107, 106, 0.71);
+}
+.footer{
+    background: #B8B8B8;
+}
+.inst{
+    height:50px;
+    width:50px;
+}
+.wrap{
+    margin: 35px 0 35px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.sabainst>a,.botainst>a{
+    font-weight: 700;
+    font-size: 40px;
+    color: #3C3232;
+}
+.sabainst,.botainst{
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    height:50px;
+}
+.botainst>p,.sabainst>p{
+ margin-left: 10px;
+}
