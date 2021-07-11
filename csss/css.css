@@ -14,10 +14,9 @@ a{
     overflow:hidden;
     display:flex;
     flex-direction:column;
-    min-height:100vh;
 }
 .contain{
-    width:1320px;
+    max-width:1320px;
     margin: 0 auto;
 }
 ol, ul,li {
@@ -27,13 +26,13 @@ ol, ul,li {
 
 .top-1{
     margin:0 163px 0 163px;
-        font-size:25px;
-        display:flex;
-        align-items:center;
-        justify-content: space-between;
+    font-size:25px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
 }
 .header{
-    height:50px;
+    max-height:50px;
     align-items:center;
     background: #DE6D4B;
     display: flex;
@@ -135,7 +134,7 @@ color: white;
     margin-right: 50px;
 }
 .firstbook-w{
-    height:100vh;
+    max-height:100vh;
     margin-top: 70px;
     display: flex;
 }
@@ -143,17 +142,16 @@ color: white;
     background: #D2891C;
 }
 .firstbook-right-heading>a{
-font-weight: 700;
-font-size: 40px;
-line-height: 1.175;
-margin-left: 112px;
-color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.175;
+    margin-left: 112px;
+    color: #FFFFFF;
 }
 .infoaboutfox{
     margin-bottom: 80px;
     margin-top: 60px;
     margin-left: 70px;
-    max-width:780px;
     font-weight: 300;
     font-size: 30px;
     line-height: 35px;
@@ -169,8 +167,8 @@ color: #FFFFFF;
     background: #B8B8B8;
 }
 .inst{
-    height:50px;
-    width:50px;
+    max-height:50px;
+    max-width:50px;
 }
 .wrap{
     margin: 35px 0 35px 0;
@@ -186,8 +184,24 @@ color: #FFFFFF;
     justify-content: flex-end;
     align-items: center;
     display: flex;
-    height:50px;
+    max-height:50px;
 }
 .botainst>p,.sabainst>p{
  margin-left: 10px;
+
+}
+@media(max-width:767px){
+    .contain{
+        max-width: none;
+    }
+}
+@media(max-width:1200px){
+    .contain{
+        max-width: 970px;
+    }
+}
+@media(max-width:992px){
+    .contain{
+        max-width: 750px;
+    }
 }
